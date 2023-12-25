@@ -2,7 +2,7 @@ package services;
 
 import java.security.InvalidParameterException;
 
-public class BrazilInterestService implements InterestService{
+public class UsaInterestService implements InterestService{
 	// Atributos
 	private double interestRate;
 	
@@ -15,7 +15,7 @@ public class BrazilInterestService implements InterestService{
 	}
 	
 	// Método construtor
-	public BrazilInterestService(double interestRate) {
+	public UsaInterestService(double interestRate) {
 		this.interestRate = interestRate;
 	}
 		
